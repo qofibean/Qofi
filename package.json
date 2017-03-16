@@ -1,19 +1,23 @@
 {
-  "name": "qofibean",
+  "name": "yonko",
   "version": "1.0.0",
-  "description": "This is a website developed for qofibean ltd by Kula Hapa",
+  "description": "yes",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "test"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/qofibean/qofibean.git"
-  },
-  "author": "Kulahapa team (Yonko Kilasi)",
+  "author": "yonko steve",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/qofibean/qofibean/issues"
-  },
-  "homepage": "https://github.com/qofibean/qofibean#readme"
+  "devDependencies": {
+    "bower-files": "^3.14.1",
+    "browser-sync": "^2.18.8",
+    "browserify": "^14.1.0",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-uglify": "^2.1.0",
+    "gulp-util": "^3.0.8",
+    "jshint": "^2.9.4",
+    "vinyl-source-stream": "^1.1.0"
+  }
 }
