@@ -1,19 +1,19 @@
-installations
-npm install gulp-concat --save-dev
-npm install vinyl-source-stream --save-dev
-sudo npm install gulp -g
-npm install gulp-uglify 
-npm install gulp-util --save-dev
-npm install del --save-dev
-npm install jshint --save-dev
-npm install gulp-jshint --save-dev
-npm install browser-sync --save-dev
-required for bower  
-npm install
-bower install
-bower install moment --save
-npm install bower-files --save-dev
-bower install bootstrap --save
+//installations
+//npm install gulp-concat --save-dev
+//npm install vinyl-source-stream --save-dev
+//sudo npm install gulp -g
+//npm install gulp-uglify 
+//npm install gulp-util --save-dev
+//npm install del --save-dev
+//npm install jshint --save-dev
+//npm install gulp-jshint --save-dev
+//npm install browser-sync --save-dev
+//required for bower  
+//npm install
+//bower install
+//bower install moment --save
+//npm install bower-files --save-dev
+//bower install bootstrap --save
 
 var gulp = require('gulp');
 var browserify = require('browserify');

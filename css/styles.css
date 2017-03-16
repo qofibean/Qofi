@@ -1,0 +1,29 @@
+h1 {
+    font-family: 'Oxygen', sans-serif;
+}
+h2 {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+h3 {
+    font-family: 'Roboto', sans-serif;
+}
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: #593C1F;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li {
+    float: left;
+}
+.active {
+    background-color: #4CAF50;
+}
