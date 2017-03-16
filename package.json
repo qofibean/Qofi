@@ -1,0 +1,19 @@
+{
+  "name": "qofibean",
+  "version": "1.0.0",
+  "description": "This is a website developed for qofibean ltd by Kula Hapa",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qofibean/qofibean.git"
+  },
+  "author": "Kulahapa team (Yonko Kilasi)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/qofibean/qofibean/issues"
+  },
+  "homepage": "https://github.com/qofibean/qofibean#readme"
+}
