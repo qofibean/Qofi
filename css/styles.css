@@ -1,3 +1,15 @@
+.col-md-3 {
+    padding: 0;
+}
+.col-md-9 {
+    padding: 0;
+}
+.head {
+    text-align: center;
+    background-color: #593C1e;
+    height: 400px;
+    line-height: 400px;
+}
 h1 {
     font-family: 'Oxygen', sans-serif;
 }
@@ -8,25 +20,27 @@ h3 {
     font-family: 'Roboto', sans-serif;
 }
 li a {
-    display: block;
     color: black;
     text-align: center;
-    padding: 14px 16px;
+    /*    padding: 14px 16px;*/
     text-decoration: none;
-    background-color: #593C1F;
 }
 ul {
     list-style-type: none;
+    overflow: hidden;
+    /*    display: flex;*/
+    /*    justify-content: space-around;*/
+    position: fixed;
     margin: 0;
     padding: 0;
-    overflow: hidden;
 }
 li {
-    float: left;
+    height: 25vh;
+    width: 25vw;
+    background-color: #593C1e;
+    line-height: 25vh;
+    padding-left: 25px;
 }
 .active {
-    background-color: #4CAF50;
-}
-#jumbotron {
-    background-color: #593C1F;
+    background-color: white;
 }
