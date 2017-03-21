@@ -1,0 +1,35 @@
+h1 {
+    font-family: 'Oxygen', sans-serif;
+}
+h2 {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+h3 {
+    font-family: 'Roboto', sans-serif;
+}
+li a {
+    display: block;
+    color: black;
+/*    text-align: center;*/
+    padding: 20px;;
+    text-decoration: none;
+    background-color: #593C1F;
+    width: 300px;
+    padding-left: 200px;
+    border-left: 300px;
+}
+ul {
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    overflow: hidden;
+}
+li {
+    float: left;
+}
+.active {
+    background-color: #4CAF50;
+}
+#jumbotron {
+    background-color: #593C1F;
+}
