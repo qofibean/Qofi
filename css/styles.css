@@ -27,16 +27,26 @@ li a {
     text-align: center;
     text-decoration: none;
 }
-nav{
-  background-color: #7d4627 !important;
+.navbar{
+  background-color: #7d4627;
+  margin-bottom: 0px;
+  height: 50px !important;
 
+}
+.navbar-header{
+  transform: translateY(-35px);
+}
+.navbar-header img{
+  padding: 0;
+  height: 100px;
+  width: 120px;
 }
 ul {
     list-style-type: none;
 }
 li {
   font-size: 24px;
-  padding-left: 20px;
+  /*padding-left: 20px;*/
   color: black;
 }
 li a:hover{
