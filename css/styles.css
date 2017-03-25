@@ -11,7 +11,7 @@
     line-height: 400px;
 }
 .head img{
-  height: 500px;
+  height: 5000px;
 }
 h1 {
     font-family: 'Oxygen', sans-serif;
@@ -30,7 +30,7 @@ li a {
 .navbar{
   background-color: #7d4627;
   margin-bottom: 0px;
-  height: 50px !important;
+  height: 70px !important;
 
 }
 .navbar-header{
