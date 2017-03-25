@@ -80,6 +80,7 @@ li a:hover{
         padding-bottom: 20px;
         padding-left: 0;
 }
+/*Begining of carousel*/
         .carousel-inner>.item>img,
     .carousel-inner>.item>a>img {
         width: 70%;
@@ -97,10 +98,18 @@ li a:hover{
         max-height: 400px;
     }
     /*end*/
-    /*flexbox moving pictures*/
-    
-    .flex-wrap-container {
-        padding-top: -600px;
-        display: flex;
-        flex-wrap: wrap;
+ button {
+        border: 0;
+        background: #0087cc;
+        border-radius: 4px;
+        box-shadow: 0 5px 0 #006599;
+        color: #fff;
+        cursor: pointer;
+        font: inherit;
+        margin-right: 30px;
+        outline: 0;
+        padding: 12px 20px;
+        transition: all .1s linear;
+        float: right;
     }
+   
