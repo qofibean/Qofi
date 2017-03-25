@@ -16,7 +16,7 @@
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script src="js/scripts.js"></script>
+    <script src="js/calculator-interface.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Oxygen|Roboto|Source+Sans+Pro" rel="stylesheet">
 
@@ -30,7 +30,16 @@
             <button id="10ml">Qofibean 10 ml bottle</button>
         </div>
         <h1>Quantity</h1>
-        <button id="q1">1</button>
+         
+        <form id="quantity">
+            <label for="more">Please type in the quantity you would like to order</label>
+            <input id="more" type="number" placeholder="input must be above 4">
+            <button id="enter">Submit</button>
+        </form>
+        
+        <button id="equal">Total</button>
+        <h1 id="total"></h1>
+        <button id="proceed">Proceed</button>
     </div>
 </body>
 
