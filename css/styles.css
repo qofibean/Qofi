@@ -55,11 +55,13 @@ li a:hover {
 .active {
     /*background-color: white;*/
 }
+/*
 .content .col-md-6 {
     height: 500px;
     font-size: 20px;
     overflow: hidden;
 }
+*/
 /*
 .content .col-md-6:first-child {
     background-image: url("../images/IMG_2294.jpg");
