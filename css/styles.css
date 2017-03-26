@@ -10,8 +10,8 @@
     height: 400px;
     line-height: 400px;
 }
-.head img{
-  height: 5000px;
+.head img {
+    height: 5000px;
 }
 h1 {
     font-family: 'Oxygen', sans-serif;
@@ -27,89 +27,94 @@ li a {
     text-align: center;
     text-decoration: none;
 }
-.navbar{
-  background-color: #7d4627;
-  margin-bottom: 0px;
-  height: 70px !important;
-
+.navbar {
+    background-color: #7d4627;
+    margin-bottom: 0px;
+    height: 70px !important;
 }
-.navbar-header{
-  transform: translateY(-35px);
+.navbar-header {
+    transform: translateY(-35px);
 }
-.navbar-header img{
-  padding: 0;
-  height: 100px;
-  width: 120px;
+.navbar-header img {
+    padding: 0;
+    height: 100px;
+    width: 120px;
 }
 ul {
     list-style-type: none;
 }
 li {
-  font-size: 24px;
-  /*padding-left: 20px;*/
-  color: black;
+    font-size: 24px;
+    /*padding-left: 20px;*/
+    color: black;
 }
-li a:hover{
-  text-decoration: none;
-  color: white;
+li a:hover {
+    text-decoration: none;
+    color: white;
 }
 .active {
     /*background-color: white;*/
 }
-.content .col-md-6{
-  height: 500px;
-  font-size: 40px;
-  overflow: hidden;
+.content .col-md-6 {
+    height: 500px;
+    font-size: 30px;
+    overflow: hidden;
 }
-.content .col-md-6:first-child{
-  background-image: url("../images/food-beans-coffee-drink.jpg");
-  background-size: cover;
-  background-position: center;
+.content .col-md-6:first-child {
+    background-image: url("../images/food-beans-coffee-drink.jpg");
+    background-size: cover;
+    background-position: center;
 }
-.content .col-md-6:last-child{
-  background-image: url("../images/pexels-photo-134577.jpeg");
-  background-size: cover;
-  background-position: center;
+.content .col-md-6:last-child {
+    background-image: url("../images/pexels-photo-134577.jpeg");
+    background-size: cover;
+    background-position: center;
 }
-   @import url(http://fonts.googleapis.com/css?family=Fjalla+One);
-    @import url(http://fonts.googleapis.com/css?family=Gudea);
-    .footer-area {
-        background: #fff url("../images/footer/footer-bg.png") repeat scroll left top;
-        padding-top: 40px;
-        padding-right: 0;
-        padding-bottom: 20px;
-        padding-left: 0;
+@import url(http://fonts.googleapis.com/css?family=Fjalla+One);
+@import url(http://fonts.googleapis.com/css?family=Gudea);
+.footer-area {
+    background: #fff url("../images/footer/footer-bg.png") repeat scroll left top;
+    padding-top: 40px;
+    padding-right: 0;
+    padding-bottom: 20px;
+    padding-left: 0;
 }
+
 /*Begining of carousel*/
-        .carousel-inner>.item>img,
-    .carousel-inner>.item>a>img {
-        width: 70%;
-        height: 100%;
-        margin: auto;
-        position: relative;
-    }
-    .carousel-caption {
-        position: absolute;
-        /*  padding: 50px;*/
-        margin-bottom: 200px;
-        margin-left: -55px;
-    }
-    .item img {
-        max-height: 400px;
-    }
-    /*end*/
- button {
-        border: 0;
-        background: #0087cc;
-        border-radius: 4px;
-        box-shadow: 0 5px 0 #006599;
-        color: #fff;
-        cursor: pointer;
-        font: inherit;
-        margin-right: 30px;
-        outline: 0;
-        padding: 12px 20px;
-        transition: all .1s linear;
-        float: right;
-    }
-   
+
+.carousel-inner>.item>img,
+.carousel-inner>.item>a>img {
+    width: 70%;
+    height: 100%;
+    margin: auto;
+    position: relative;
+}
+.carousel-caption {
+    position: absolute;
+    /*  padding: 50px;*/
+    margin-bottom: 200px;
+    margin-left: -55px;
+}
+.item img {
+    max-height: 400px;
+}
+
+/*end*/
+
+button {
+    border: 0;
+    background: #0087cc;
+    border-radius: 4px;
+    box-shadow: 0 5px 0 #006599;
+    color: #fff;
+    cursor: pointer;
+    font: inherit;
+    margin-right: 30px;
+    outline: 0;
+    padding: 12px 20px;
+    transition: all .1s linear;
+    float: right;
+}
+#oilhide {
+    display: none;
+}
