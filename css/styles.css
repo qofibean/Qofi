@@ -13,8 +13,8 @@
 .head img {
     height: 5000px;
 }
-h1 {
-    font-family: 'Oxygen', sans-serif;
+p {
+    font-family: 'Open Sans', sans-serif;
 }
 h2 {
     font-family: 'Source Sans Pro', sans-serif;
@@ -57,11 +57,11 @@ li a:hover {
 }
 .content .col-md-6 {
     height: 500px;
-    font-size: 30px;
+    font-size: 20px;
     overflow: hidden;
 }
 .content .col-md-6:first-child {
-    background-image: url("../images/food-beans-coffee-drink.jpg");
+    background-image: url("../images/IMG_2294.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -116,5 +116,8 @@ button {
     float: right;
 }
 #oilhide {
+    display: none;
+}
+#less {
     display: none;
 }
