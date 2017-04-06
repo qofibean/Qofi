@@ -1,12 +1,14 @@
 /*LATASHA*/
 
 body {
-    background-color: #7d4627;
+    /*background-color: #7d4627;*/
+    background-image: url(../images/26.jpg);
     padding-top: 100px;
+    color: g
 }
 
 .navbar-default {
-    background-color: #7d4627;
+    background-color: none;
     border-color: #E7E7E7;
     padding: 10px;
 }
@@ -25,12 +27,12 @@ body {
 /* Link */
 
 .navbar-default .navbar-nav > li > a {
-    color: #FFFFFF;
+    /*color: #FFFFFF;*/
 }
 
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-    color: #000000;
+    /*color: #000000;*/
 }
 
 .navbar-default .navbar-nav > .active > a,
@@ -48,7 +50,7 @@ body {
 }
 
 .content {
-    background-color: white;
+    /*background-color: white;*/
     padding: 50px;
 }
 
