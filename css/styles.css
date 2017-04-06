@@ -1,12 +1,14 @@
 /*LATASHA*/
 
 body {
-    background-color: #7d4627;
+    /*background-color: #7d4627;*/
+    background-image: url(../images/26.jpg);
     padding-top: 100px;
+    color: g
 }
 
 .navbar-default {
-    background-color: #7d4627;
+    background-color: none;
     border-color: #E7E7E7;
     padding: 10px;
 }
@@ -25,12 +27,12 @@ body {
 /* Link */
 
 .navbar-default .navbar-nav > li > a {
-    color: #FFFFFF;
+    /*color: #FFFFFF;*/
 }
 
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-    color: #000000;
+    /*color: #000000;*/
 }
 
 .navbar-default .navbar-nav > .active > a,
@@ -48,7 +50,7 @@ body {
 }
 
 .content {
-    background-color: white;
+    /*background-color: white;*/
     padding: 50px;
 }
 
@@ -127,9 +129,15 @@ h3 {
 .foot {
     margin-bottom: 20px;
 }
+/*.navbar {
+    background-color: #2d1200;
+    margin-bottom: 0px;
+    height: 70px !important;
+
 
 .about {
-    border-right: 2px solid black;
+    border-right: 2px solid black;*/
+
 }
 
 footer {
@@ -270,5 +278,3 @@ li a:hover {
 #products {
     background-color: ;
 }
-
-form {}
