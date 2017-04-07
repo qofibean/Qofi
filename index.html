@@ -22,20 +22,28 @@
     <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
     <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
     <style type="text/css">
-        #mc_embed_signup {
-            /*background: #00F005;*/
-            clear: left;
-            font: 14px Helvetica, Arial, sans-serif;
-        }
+    #mc_embed_signup {
+        /*background: #00F005;*/
+        clear: left;
+        font: 14px Helvetica, Arial, sans-serif;
+    }
     </style>
     <title>Qofi Bean</title>
 </head>
 
 <body>
     <!-- sign up form pop-up -->
-    <script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us15.list-manage.com","uuid":"0dc36107f06273b7d291768c0","lid":"80d2ca2de9"}) })</script>
-    <!-- end of sign up form -->
-
+    <script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script>
+    <script type="text/javascript">
+    require(["mojo/signup-forms/Loader"], function(L) {
+        L.start({
+            "baseUrl": "mc.us15.list-manage.com",
+            "uuid": "0dc36107f06273b7d291768c0",
+            "lid": "80d2ca2de9"
+        })
+    })
+    </script>
+    <div class="parallax-short"></div>
     <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -56,91 +64,54 @@
         </div>
         <!-- /.container-fluid -->
     </nav>
-    <div class="container content">
-        <!--         <div class="content">
- -->
-        <div class="col-lg-6 col-md-6">
-            <div class="coffee-product-items">
-                <!--                     <img src="images/IMG_2299.jpg" height="350px">-->
+    <div class="content">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6">
+                    <div class="coffee-product-items">
+                    </div>
+                </div>
+                <div class="col-md-6 animated slideInLeft" id="slides">
+                    <h1>Coffee Bean Oil</h1>
+                    <button class="animated rotateOut">yo</button>
+                    <p>Simply cold pressed out of dry coffee beans, this oil is excellent therapy for your skin. It is one of the few oils, as well as one of the best, to be used on any skin type.</p>
+                    <a id="read" href="products.html">Read more...</a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-md-6">
+                    <div class="coffee-product-items">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <h1>Green Coffee Beans</h1>
+                    <p>Kenyan coffee is internationally one of the most admired and sought after. The consistency in quality is attributed to decades of the highest stringency in growing and processing standards.
+                    </p>
+                    <a id="read" href="products.html">Read more...</a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-md-6">
+                    <div class="coffee-product-items">
+                    </div>
+                </div>
+                <h1>Roasted Coffee Beans</h1>
+                <p>
+                    Coffee experts describe Kenyan Coffee as having depth, chocolatey sweetness and hints of flowers. It has a smooth feel and general balance when sippe</p>
+                <a id="read" href="products.html">Read more...</a>
             </div>
         </div>
-        <div class="col-md-6 animated slideInLeft"id="slides">
-            <h1>Coffee Bean Oil</h1>
-            <button  class="animated rotateOut">yo</button>
-            <p>Simply cold pressed out of dry coffee beans, this oil is excellent therapy for your skin. It is one of the few oils, as well as one of the best, to be used on any skin type.</p>
-            <a id="read" href="products.html">Read more...</a>
-            <!-- </div>
- -->
-        </div>
-        <div class="col-md-6">
-            <h1>Green Coffe Beans</h1>
-            <p>Kenyan coffee is internationally one of the most admired and sought after. The consistency in quality is attributed to decades of the highest stringency in growing and processing standards.
-            </p>
-            <a id="read" href="products.html">Read more...</a>
-            <!-- </div>
- -->
-        </div>
-        <div class="col-md-6">
-            <h1>Roasted Coffee Beans</h1>
-            <p>
-                Coffee experts describe Kenyan Coffee as having depth, chocolatey sweetness and hints of flowers. It has a smooth feel and general balance when sippe</p>
-            <a id="read" href="products.html">Read more...</a>
-            <!-- </div>
- -->
-        </div>
     </div>
+    <div class="parallax"></div>
     <!--    end of container-->
-    <div id="products">
-        <h1> Our products</h1>
-        <div id="myCarousel" class="carousel slide" data-ride="carousel">
-            <!-- Indicators -->
-            <ol class="carousel-indicators">
-                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                <li data-target="#myCarousel" data-slide-to="1"></li>
-                <li data-target="#myCarousel" data-slide-to="2"></li>
-                <li data-target="#myCarousel" data-slide-to="3"></li>
-            </ol>
-            <!-- Wrapper for slides -->
-            <div class="carousel-inner" role="listbox">
-                <div class="item active carousel-image-1">
-                    <!--                     <img src="images/assemble%20bottle.jpg">
- -->
-                    <div class="carousel-caption">
-                        <h3>Coffee Bean Oil Bottle 10ml</h3>
-                    </div>
-                </div>
-                <div class="item carousel-image-2">
-                    <!--                     <img src="images/bottle.jpg">
- -->
-                    <div class="carousel-caption">
-                        <h3>10 ML coffee Bean Oil Bottle</h3>
-                    </div>
-                </div>
-                <div class="item carousel-image-3">
-                    <!--                     <img src="images/spray%20bottle.jpg" width="200px">
- -->
-                    <div class="carousel-caption">
-                        <h3>Spray Bottle</h3>
-                    </div>
-                </div>
-                <div class="item carousel-image-4">
-                    <!--  <img src="images/food-beans-coffee-drink.jpg"> -->
-                    <div class="carousel-caption">
-                        <h3>Coffee Beans</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
     <!-- Begin MailChimp Signup Form -->
-
     <div id="mc_embed_signup">
         <form action="//qofibean.us15.list-manage.com/subscribe/post?u=0dc36107f06273b7d291768c0&amp;id=80d2ca2de9" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
             <div id="mc_embed_signup_scroll">
                 <h2>Subscribe to our NewsLetter</h2>
                 <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
                 <div class="mc-field-group">
-                    <label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
+                    <label for="mce-EMAIL">Email Address <span class="asterisk">*</span>
                     </label>
                     <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
                 </div>
@@ -153,25 +124,28 @@
                     <div class="response" id="mce-success-response" style="display:none"></div>
                 </div>
                 <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_0dc36107f06273b7d291768c0_80d2ca2de9" tabindex="-1" value=""></div>
-                <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button animated rubberBand"></div>
+                <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                    <input type="text" name="b_0dc36107f06273b7d291768c0_80d2ca2de9" tabindex="-1" value="">
+                </div>
+                <div class="clear">
+                    <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button animated rubberBand">
+                </div>
             </div>
         </form>
     </div>
     <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
     <script type='text/javascript'>
-        (function($) {
-            window.fnames = new Array();
-            window.ftypes = new Array();
-            fnames[0] = 'EMAIL';
-            ftypes[0] = 'email';
-            fnames[1] = 'FNAME';
-            ftypes[1] = 'text';
-        }(jQuery));
-        var $mcj = jQuery.noConflict(true);
+    (function($) {
+        window.fnames = new Array();
+        window.ftypes = new Array();
+        fnames[0] = 'EMAIL';
+        ftypes[0] = 'email';
+        fnames[1] = 'FNAME';
+        ftypes[1] = 'text';
+    }(jQuery));
+    var $mcj = jQuery.noConflict(true);
     </script>
     <!--End mc_embed_signup-->
-
     <!--Begining of footer          -->
     <div class="foot">
         <div class="container">
